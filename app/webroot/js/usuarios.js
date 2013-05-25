@@ -43,7 +43,6 @@ function modificarUsuario(){
     var ap_materno = $("#").attr('value');
     var rol = $("#rol").attr('value');
     
-    alert(rut+'-'+nombre+'-'+ap_paterno);
       
 }
 
