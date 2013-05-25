@@ -1,0 +1,37 @@
+
+#overLoader{
+        background-color:#fff!important;
+        height:100%;
+        left:0;
+        margin:auto;
+        position:fixed;
+        top:0;
+        width:100%;
+        z-index:500;
+}
+#windowLoader{
+        background:#fff;
+        border:1px solid #bbb;
+        font-weight:700;
+        left:25%;
+        padding:20px;
+        position:fixed;
+        text-align:center;
+        top:30%;
+        width:50%;
+        z-index:600;
+}
+#windowLoader img{
+        display:block;
+        margin:2px auto;
+}
+.divTooltip{
+        background:#ffffcf;
+        border-top:1px solid #eee;
+        border-right:1px solid #aaa;
+        border-bottom:1px solid #aaa;
+        border-left:1px solid #ddd;
+        color:#000;
+        font-size:80%;
+        font-weight:bold;
+}
