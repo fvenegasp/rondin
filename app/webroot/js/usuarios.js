@@ -37,9 +37,9 @@ function agregarUsuario(){
 function checkUsuario(){
     var rut = $("#rut").attr('value');
     if(rut=='1-9'){
+       $("#agregar").hide();
+        $("#modificar").hide();  
         alert('Rut Invalido');
-        $("#agregar").hide();
-        $("#modificar").hide();
         return false;        
     }
     
