@@ -4,7 +4,7 @@ echo $this->Html->script(array('jquery-1.8.3', 'jquery.Rut', 'usuarios'));
 <script type="text/javascript" language="javascript">
     var url_checkUsuario = "<?php echo $this->Html->url(array("controller" => "Administracion", "action" => "checkUsuario")); ?>"; 
 </script>
-<legend>Agregar Usuario</legend>
+<legend>Usuario</legend>
 <form id="form1">
     <div class="row">
         <div class="span2">

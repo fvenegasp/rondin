@@ -14,6 +14,8 @@ function inicializarPagina() {
     
    
     $("#agregar").click(agregarUsuario);
+    $("#modificar").click(modificarUsuario);
+    
     $('#rut').Rut({
         on_error: function(){alert('Rut Invalido');$("#agregar").hide();},
         on_success: function(){ $("#agregar").show(); checkUsuario();} 
@@ -34,11 +36,24 @@ function agregarUsuario(){
       
 }
 
+function modificarUsuario(){
+    var rut = $("#rut").attr('value');
+    var nombre = $("#nombre").attr('value');
+    var ap_paterno = $("#ap_paterno").attr('value');
+    var ap_materno = $("#").attr('value');
+    var rol = $("#rol").attr('value');
+    
+    alert(rut+'-'+nombre+'-'+ap_paterno);
+      
+}
+
 function checkUsuario(){
     var rut = $("#rut").attr('value');
     if(rut=='1-9'){
        $("#agregar").hide();
-        $("#modificar").hide();  
+       $("#modificar").hide();  
+       $("#form1 :input").attr("disabled", true);
+       $("#rut").attr("disabled", false);
         alert('Rut Invalido');
         return false;        
     }
@@ -51,7 +66,6 @@ function checkUsuario(){
         success: function(dat){
             
            if(dat.estado==true){
-               $("#rut").attr("disabled", true);
                $("#nombre").attr('value', dat.nombre);
                $("#ap_paterno").attr('value', dat.ap_paterno);
                $("#ap_materno").attr('value', dat.ap_materno);
@@ -59,7 +73,6 @@ function checkUsuario(){
                $("#div_password").hide();
                $("#modificar").show();
            }else{
-               $("#rut").attr("disabled", false);
                $("#nombre").attr('value', '');
                $("#ap_paterno").attr('value', '');
                $("#ap_materno").attr('value', '');
