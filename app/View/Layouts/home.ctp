@@ -52,7 +52,7 @@ $cakeDescription = __d('cake_dev', 'Demo');
                         <ul class="nav">
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    Ususarios
+                                    Usuarios
                                     <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li><?php echo $this->Html->link('Administracion ', '/administracion', array()); ?></li>
