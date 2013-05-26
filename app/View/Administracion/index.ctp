@@ -19,15 +19,14 @@ echo $this->Html->css('demo_table');
             </ul>
             <!-- Ususarios ------------------------------------------------------------------------------------------>
             <div id="tabs-1">
-                <div id="lugares-content" name="lugares-content">
-
-                    <center><div id="cargando"></div></center>
-                    <div id="resultado"></div>
-                    <br>
-                    <div id="Actions_Tab_Lugares"class='row' style='margin-top: 20px;'>
-                        <a id="agregar_usuario" style="width: 120px; float: right; color: #FFFFFF;" class="btn btn-large btn-block btn-info">Agregar</a>
-                    </div>    
-                </div> 
+              <center><div id="cargando"></div></center>
+               <div id="resultado"></div>
+               
+               <br>
+               <div id="Actions_Tab_Lugares"class='row' style='margin-top: 20px;'>
+                   <a id="agregar_usuario" style="width: 120px; float: right; color: #FFFFFF;" class="btn btn-large btn-block btn-info">Agregar</a>
+               </div>    
+                
             </div>
             <!-- Roles -------------------------------------------------------------------------------------------->
             <div id="tabs-2">

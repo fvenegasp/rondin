@@ -2,6 +2,7 @@ $(document).ready(inicializarPagina);
 
 function inicializarPagina() { 
     $("#tabs").tabs();
+     
     cargarUsuarios();
     
     $("#agregar_usuario").click(modalAgregarUsuario);
@@ -19,7 +20,7 @@ function cargarUsuarios(){
                $('#cargando').empty();
             },
             success: function(a) {
-                  $('#cargando').empty();
+                $('#cargando').empty();
                 $("#resultado").append(a);
             }
         }); // fin peticion ajax  

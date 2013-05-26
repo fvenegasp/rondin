@@ -22,7 +22,7 @@ class AdministracionController  extends AppController {
     }
     
     function mostrarUsuarios(){
-        $this->layout = 'ajax';
+        //$this->layout = 'ajax';
         $this->set('usuarios', $this->Users->searchAll());
         $this->render('usuarios');
     }
