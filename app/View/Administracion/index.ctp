@@ -6,6 +6,7 @@ echo $this->Html->css('demo_table');
     var url_mostrar_usuarios = "<?php echo $this->Html->url(array("controller" => "Administracion", "action" => "mostrarUsuarios")); ?>"; 
     var url_progreso= "<?php echo $this->Html->url(array("controller" => "Administracion", "action" => "progreso")); ?>";      
     var url_agregar_usuario_modal= "<?php echo $this->Html->url(array("controller" => "Administracion", "action" => "agregarUsuarioModal")); ?>";      
+    var url_eliminar_usuario = "<?php echo $this->Html->url(array("controller" => "Administracion", "action" => "eliminarUsuario")); ?>";      
 </script>
 
 <div class="container">

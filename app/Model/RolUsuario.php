@@ -18,6 +18,11 @@ class RolUsuario extends AppModel {
       
       return $ret;
    }
+   
+   function eliminarRolUsuario($conditions){
+      $ret = ($this->deleteAll($conditions, false))? true : false;
+      return $ret; 
+   }
      
 }
 

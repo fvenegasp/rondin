@@ -4,8 +4,8 @@ function inicializarPagina() {
     $("#tabs").tabs();
      
     cargarUsuarios();
-    
-    $("#agregar_usuario").click(modalAgregarUsuario);
+        
+    $("#agregar_usuario").click(AgregarUsuario);
 }
 
 function cargarUsuarios(){
@@ -26,9 +26,15 @@ function cargarUsuarios(){
         }); // fin peticion ajax  
 }
 
-function modalAgregarUsuario(){
+function AgregarUsuario(){
+    modalAgregarUsuario('');
+}
+
+function modalAgregarUsuario(rut){
+          
     $('#modal-content').load(url_progreso,{},function(){
         $.ajax({
+            data: 'rut='+rut,
             type: 'post',
             url: url_agregar_usuario_modal,
             success: function(data){
@@ -44,6 +50,28 @@ function modalAgregarUsuario(){
             }
         });
     }); 
+}
+
+function eliminarUsuario(rut){
+    if (confirm('¿Desea eliminar el usuario?')) {
+            $.ajax({
+                type: 'POST',
+                data: "rut="+rut,
+                url: url_eliminar_usuario,
+                dataType: 'json',
+                success: function(dat){
+                    if(dat.estado==true){
+                        cargarUsuarios();
+                    }
+                },
+                complete: function() {
+                    overLoader(0);
+                },
+                 beforeSend: function() {
+                   overLoader(1,'Eliminando...');
+                }
+            });
+        }
 }
 
 function overLoader(sw, msg){

@@ -35,6 +35,30 @@ class AdministracionController  extends AppController {
     function agregarUsuarioModal(){
         $this->layout = 'ajax';
         $this->set('roles',  $this->Roles->listRoles());
+        
+        $rutdv = $this->data['rut'];
+        
+        if($rutdv){
+            $rutx = strtoupper(ereg_replace('\.|,','', strtoupper($this->data['rut'])));
+            $rutx = explode('-', $rutx);
+            $rut = $rutx[0];
+            $dv = $rutx[1];
+
+            $conditions = array('Users.rut' => $rut, 'Users.dv' => $dv);
+            $resp = $this->Users->searchData($conditions);
+            
+             if ($resp) {
+                foreach ($resp as $value) {
+                    $this->set('nombre',$value['Users']['nombre']);
+                    $this->set('ap_paterno', $value['Users']['ap_paterno']);
+                    $this->set('ap_materno', $value['Users']['ap_materno']);
+                    $this->set('id_rol', $value['ur']['id_rol']);
+                }
+                                
+                $this->set('rut',$rutdv);
+            } 
+        }
+            
         $this->render('agregar');
     }
     
@@ -83,6 +107,20 @@ class AdministracionController  extends AppController {
             $data['estado'] = $this->RolUsuario->modificarRolUsuario($fields,$conditions);
         }
                         
+        $this->fn_json_encode($this, $data);
+    }
+    
+    function eliminarUsuario(){
+        $rutx = strtoupper(ereg_replace('\.|,','', strtoupper($this->data['rut'])));
+        $rutx = explode('-', $rutx);
+        $rut = $rutx[0];
+        $dv = $rutx[1];
+        
+        $conditions = array('rut'=>$rut);
+        if( $this->Users->eliminarUsuario($conditions)){
+            $data['estado'] = $this->RolUsuario->eliminarRolUsuario($conditions);
+        }
+        
         $this->fn_json_encode($this, $data);
     }
     
