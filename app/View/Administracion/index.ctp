@@ -5,7 +5,7 @@ echo $this->Html->css('demo_table');
 <script type="text/javascript" language="javascript">
     var url_mostrar_usuarios = "<?php echo $this->Html->url(array("controller" => "Administracion", "action" => "mostrarUsuarios")); ?>"; 
     var url_progreso= "<?php echo $this->Html->url(array("controller" => "Administracion", "action" => "progreso")); ?>";      
-    var url_agregar_usuario= "<?php echo $this->Html->url(array("controller" => "Administracion", "action" => "agregarUsuario")); ?>";      
+    var url_agregar_usuario_modal= "<?php echo $this->Html->url(array("controller" => "Administracion", "action" => "agregarUsuarioModal")); ?>";      
 </script>
 
 <div class="container">

@@ -17,8 +17,8 @@ function inicializarPagina() {
     $("#modificar").click(modificarUsuario);
     
     $('#rut').Rut({
-        on_error: function(){alert('Rut Invalido');$("#agregar").hide();},
-        on_success: function(){ $("#agregar").show(); checkUsuario();} 
+        on_error: function(){alert('Rut Invalido');$("#agregar").hide();$("#modificar").hide();},
+        on_success: function(){checkUsuario();} 
     });           
     
  
@@ -29,21 +29,78 @@ function agregarUsuario(){
     var rut = $("#rut").attr('value');
     var nombre = $("#nombre").attr('value');
     var ap_paterno = $("#ap_paterno").attr('value');
-    var ap_materno = $("#").attr('value');
+    var ap_materno = $("#ap_materno").attr('value');
     var rol = $("#rol").attr('value');
+    var password = $("#password").attr('value');
     
     if($.trim(rut)=='') alert('debe ingresar rut');
-      
+    if($.trim(nombre)==''){ alert('debe ingresar nombre'); return false;}
+    if($.trim(ap_paterno)==''){ alert('debe ingresar apellido paterno'); return false;}
+    if($.trim(rol)==''){ alert('debe seleccionar rol'); return false;}
+    if($.trim(password)==''){ alert('debe ingresar password'); return false;}
+    
+     $.ajax({
+        data: "rut="+rut+"&nombre="+nombre+"&ap_paterno="+ap_paterno+"&ap_materno="+ap_materno+"&rol="+rol+"&password="+password,
+        type: "POST",
+        url: url_agregarUsuario,
+        dataType: 'json',
+        success: function(dat){
+            if(dat.estado){
+                $("#modal-background").toggleClass("active");
+                $("#modal-content").toggleClass("active");
+                cargarUsuarios();
+            }else{
+                alert('Error al agregar');
+            }
+            
+        },
+         beforeSend: function(){
+           $("#form1 :input").attr("disabled", true);
+           $("#agregar").hide();
+           $("#modificar").hide();
+        },
+        complete: function(){
+           $("#form1 :input").attr("disabled", false);
+        }       
+       });	
 }
 
 function modificarUsuario(){
     var rut = $("#rut").attr('value');
     var nombre = $("#nombre").attr('value');
     var ap_paterno = $("#ap_paterno").attr('value');
-    var ap_materno = $("#").attr('value');
+    var ap_materno = $("#ap_materno").attr('value');
     var rol = $("#rol").attr('value');
     
-      
+    if($.trim(rut)==''){ alert('debe ingresar rut'); return false;}
+    if($.trim(nombre)==''){ alert('debe ingresar nombre'); return false;}
+    if($.trim(ap_paterno)==''){ alert('debe ingresar apellido paterno'); return false;}
+    if($.trim(rol)==''){ alert('debe seleccionar rol'); return false;}
+    
+    $.ajax({
+        data: "rut="+rut+"&nombre="+nombre+"&ap_paterno="+ap_paterno+"&ap_materno="+ap_materno+"&rol="+rol,
+        type: "POST",
+        url: url_modificarUsuario,
+        dataType: 'json',
+        success: function(dat){
+            if(dat.estado){
+                $("#modal-background").toggleClass("active");
+                $("#modal-content").toggleClass("active");
+                cargarUsuarios();
+            }else{
+                alert('Error al modificar');
+            }
+            
+        },
+         beforeSend: function(){
+           $("#form1 :input").attr("disabled", true);
+           $("#agregar").hide();
+           $("#modificar").hide();
+        },
+        complete: function(){
+           $("#form1 :input").attr("disabled", false);
+        }       
+       });	
 }
 
 function checkUsuario(){

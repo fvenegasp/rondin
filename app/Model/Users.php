@@ -2,7 +2,7 @@
 
 class Users extends AppModel {
    public $useTable = 'usuario';
-    
+  
    function searchLogin($conditions){
        $params = array(
             'conditions' => $conditions,
@@ -36,6 +36,18 @@ class Users extends AppModel {
         );
         $resp = $this->find('all', $params);
         return $resp;
+   }
+   
+   function modificarUsuario($fields, $condition){
+      $ret = ($this->updateAll($fields,$condition))? true : false;
+      
+      return $ret;
+   }
+   
+   function agregarUsuario($datos){
+      $ret = ($this->save($datos))? true : false;
+      
+      return $ret;
    }
    
 }?>

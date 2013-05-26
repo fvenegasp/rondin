@@ -1,3 +1,4 @@
+
 <script>
   $('#example').dataTable( {
         "bJQueryUI": false,
@@ -37,7 +38,7 @@
     <td class="span3"><?php echo $usuario['Users']['ap_materno']; ?></td>
     <td class="span2_Tab_Lugares">
     <center>
-        <img style="cursor: pointer;" src="/sence/librodeclases/img/edit2.png" height="25px" width="25px"/>                                             
+           <img style="cursor: pointer;" src="../../img/edit2.png" height="25px" width="25px"/>                                         
         <?php
         $this->Html->image('/img/delete2.png', array('width' => '25px', 'height' => '25px'));
         ?>

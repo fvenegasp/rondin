@@ -3,6 +3,8 @@ echo $this->Html->script(array('jquery-1.8.3', 'jquery.Rut', 'usuarios'));
 ?> 
 <script type="text/javascript" language="javascript">
     var url_checkUsuario = "<?php echo $this->Html->url(array("controller" => "Administracion", "action" => "checkUsuario")); ?>"; 
+    var url_modificarUsuario = "<?php echo $this->Html->url(array("controller" => "Administracion", "action" => "modificarUsuario")); ?>"; 
+    var url_agregarUsuario = "<?php echo $this->Html->url(array("controller" => "Administracion", "action" => "agregarUsuario")); ?>"; 
 </script>
 <legend>Usuario</legend>
 <form id="form1">

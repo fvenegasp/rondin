@@ -20,7 +20,8 @@ $cakeDescription = __d('cake_dev', 'Demo');
             echo $this->Html->css('bootstrap-responsive');
           // echo $this->Html->css('flat-ui');
             echo $this->Html->css('jquery-ui');
-
+            echo $this->Html->css('window_loader');
+            
             // DA JS
             echo $this->Html->script('jquery-1.8.3');
             echo $this->Html->script('bootstrap.min');
@@ -121,6 +122,13 @@ $cakeDescription = __d('cake_dev', 'Demo');
             </div>
             <!-- content -->
         </div> <!-- el contenido -->
+        
+        <div id="overLoader" style="cursor: auto; opacity: 0.7;display: none" >
+    <div id="windowLoader" style="cursor: auto;">
+        <?php echo $this->Html->image('window_loader.gif', array('width' => '32', 'height' => '32')); ?>
+        <span id="txtLoader" ></span>
+    </div>
+</div> 
     </body>
 
 </html>

@@ -14,7 +14,7 @@ class AdministracionController  extends AppController {
    
     var $helpers = array('Html', 'Js', 'JqueryEngine', 'Form');
     var $components = array('RequestHandler');
-    var $uses = array('Users', 'Roles');
+    var $uses = array('Users', 'Roles', 'RolUsuario');
      
     function index(){
         $this->chekSession();
@@ -32,7 +32,7 @@ class AdministracionController  extends AppController {
         $this->render('progreso');
     }
     
-    function agregarUsuario(){
+    function agregarUsuarioModal(){
         $this->layout = 'ajax';
         $this->set('roles',  $this->Roles->listRoles());
         $this->render('agregar');
@@ -61,6 +61,56 @@ class AdministracionController  extends AppController {
                 $data['estado'] = false;
             }
        
+        $this->fn_json_encode($this, $data);
+    }
+    
+    function modificarUsuario(){
+        $rutx = strtoupper(ereg_replace('\.|,','', strtoupper($this->data['rut'])));
+        $rutx = explode('-', $rutx);
+        $rut = $rutx[0];
+        $dv = $rutx[1];
+        $nombre = $this->data['nombre'];
+        $ap_paterno = $this->data['ap_paterno'];
+        $ap_materno = $this->data['ap_materno'];
+        $rol = $this->data['rol'];
+        
+        
+        $fields = array('nombre'=> "'$nombre'", 'ap_paterno'=> "'$ap_paterno'", 'ap_materno'=> "'$ap_materno'");
+        $conditions = array('rut' => $rut, 'dv' => $dv);
+        if( $this->Users->modificarUsuario($fields,$conditions) ){
+            $fields = array('id_rol'=> $rol);
+            $conditions = array('rut' => $rut);
+            $data['estado'] = $this->RolUsuario->modificarRolUsuario($fields,$conditions);
+        }
+                        
+        $this->fn_json_encode($this, $data);
+    }
+    
+    function agregarUsuario(){
+        $rutx = strtoupper(ereg_replace('\.|,','', strtoupper($this->data['rut'])));
+        $rutx = explode('-', $rutx);
+        $rut = $rutx[0];
+        $dv = $rutx[1];
+        $nombre = $this->data['nombre'];
+        $ap_paterno = $this->data['ap_paterno'];
+        $ap_materno = $this->data['ap_materno'];
+        $rol = $this->data['rol'];
+        $password = md5($this->data['password']);
+        
+        
+        $datos = array( 'rut' => $rut, 'dv' => $dv,
+            'nombre'=> $nombre, 
+            'ap_paterno'=> $ap_paterno, 
+            'ap_materno'=> $ap_materno,
+            'contrasena'=> $password
+            );
+        
+        if( $this->Users->agregarUsuario($datos) ){
+            $fields = array('id_rol'=> $rol);
+            $conditions = array('rut' => $rut);
+            $data['estado'] = $this->RolUsuario->modificarRolUsuario($fields,$conditions);
+        }
+                        
         $this->fn_json_encode($this, $data);
     }
 }
