@@ -49,22 +49,25 @@ $cakeDescription = __d('cake_dev', 'Demo');
                     </a>
                     <?php //echo $this->Html->link('i-med', '/', array('class' => 'brand')); ?>
 
-                    <a class="brand">Proyecto</a>
-
                     <div class="nav-collapse">
-                        <ul class="nav">                              
-                            <li id="li_administracion" class="active"><a href="<?php  echo $this->Html->url('/', true) . 'administracion'; ?>"><i class="icon-home"></i> Administración</a></li>
+                        <ul class="nav">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    Usuarios
+                                    <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><?php echo $this->Html->link('Administracion ', '/administracion', array()); ?></li>
 
-                            <li id="li_configuracion"><a href="<?php echo $this->Html->url('/', true) . 'configuracion'; ?>"><i class="icon-cog"></i> Configuración</a></li>
-                            <li><a href="#"><i class="icon-eye-open"></i> Mis rondas</a></li>
-                            <li><a href="#"><i class="icon-file"></i> Reportes</a></li>
+
+                                </ul>
+                            </li>
 
 
 
                         </ul>
                         <ul class="nav pull-right">
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-user"></i>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                     <!-- Datos de Sesion -->
                                     <?php
                                     // echo $this->TwitterBootstrap->icon("user", "white") . "     ";
@@ -72,14 +75,11 @@ $cakeDescription = __d('cake_dev', 'Demo');
                                     ?>  <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                    <!--<li class="disabled"><a href="#"><i class="icon-cog"></i> Ver perfil</a></li>-->
-                                    <!--<li><?php echo " Rut:" . $this->Session->read('Users.rut'); ?> </li>-->
-                                    <li>
-                                      <!-- Button to trigger modal -->
-                                      <a href="#cerrar_sesion" data-toggle="modal" href="#myModal"> Cerrar Sesión</a></li>
+                                    <li><?php echo " Rut:" . $this->Session->read('Users.rut'); ?> </li>
 
                                 </ul>
                             </li> 
-                            
+                            <li><a id="cerrar_sesion" href="#"><i class="icon-off"></i> Cerrar Sesión</a></li>
                         </ul>
                     </div><!--/.nav-collapse -->
 
@@ -89,26 +89,6 @@ $cakeDescription = __d('cake_dev', 'Demo');
         <div id="contenido">
             <div id="content">
                 <br><br><br>
-
- 
-
- 
-<!-- Modal -->
-<div id="cerrar_sesion" class="modal hide" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h3 id="myModalLabel">Cerrar sesión</h3>
-  </div>
-  <div class="modal-body">
-    <p>¿Está seguro que desea salir de la aplicación?</p>
-  </div>
-  <div class="modal-footer">
-    <button class="btn" data-dismiss="modal" aria-hidden="true">Cancelar</button>
-    <button  id="btn_aceptar_cerrar_sesion" class="btn btn-primary">Aceptar</button>
-  </div>
-</div>
-        
-
                 <?php /*
                   function generaXMLArbol($data,$padre,$rang) {
                   foreach($data as $dat){
