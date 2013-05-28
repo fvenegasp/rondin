@@ -1,11 +1,12 @@
 $(document).ready(inicializarPagina);
 
+
+
 function inicializarPagina() { 
-  
-  $('#cerrar_sesion').click(function() {
-        if (confirm('¿Desea salir de la aplicación?')) {
-            //variable logout: se define en el layout home y contiene la ruta del metodo(funcion) logout
-            $.ajax({
+
+
+$("#btn_aceptar_cerrar_sesion").click(function(){
+    $.ajax({
                 type: 'POST',
                 url: logout,
                 dataType: 'json',
@@ -14,7 +15,7 @@ function inicializarPagina() {
                     location.reload();
                 }
             });
-        }
+
     });
 }
 

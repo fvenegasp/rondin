@@ -1,2 +1,2 @@
-1369547664
+1369721617
 a:4:{s:6:"id_rol";a:5:{s:4:"type";s:7:"integer";s:4:"null";b:0;s:7:"default";N;s:6:"length";i:11;s:3:"key";s:7:"primary";}s:3:"rut";a:5:{s:4:"type";s:7:"integer";s:4:"null";b:0;s:7:"default";N;s:6:"length";i:11;s:3:"key";s:7:"primary";}s:12:"fecha_inicio";a:4:{s:4:"type";s:4:"date";s:4:"null";b:1;s:7:"default";N;s:6:"length";N;}s:13:"fecha_termino";a:4:{s:4:"type";s:4:"date";s:4:"null";b:1;s:7:"default";N;s:6:"length";N;}}

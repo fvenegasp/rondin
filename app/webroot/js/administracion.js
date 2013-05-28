@@ -3,6 +3,9 @@ $(document).ready(inicializarPagina);
 function inicializarPagina() { 
     $("#tabs").tabs();
      
+    $("li").removeClass("active");
+    $("#li_administracion").addClass("active");
+
     cargarUsuarios();
         
     $("#agregar_usuario").click(AgregarUsuario);
