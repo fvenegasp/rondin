@@ -23,10 +23,10 @@ echo $this->Html->css('demo_table');
               <center><div id="cargando"></div></center>
                <div id="resultado"></div>
                
-               <br>
-               <div id="Actions_Tab_Lugares"class='row' style='margin-top: 20px;'>
-                   <a id="agregar_usuario" style="width: 120px; float: right; color: #FFFFFF;" class="btn btn-large btn-block btn-info">Agregar</a>
-               </div>    
+               <br><br>
+               <a id="agregar_usuario" class="btn btn-success" style="color:white;"><i class="icon-plus icon-white"></i> Agregar</a>
+                <a id="agregar_usuario2" class="btn btn-warning" style="color:white;"><i class="icon-edit icon-white"></i> Modificar</a>
+                <a id="agregar_usuario3" class="btn btn-danger" style="color:white;"><i class="icon-minus icon-white"></i> Eliminar</a>   
                 
             </div>
             <!-- Roles -------------------------------------------------------------------------------------------->
