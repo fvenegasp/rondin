@@ -22,12 +22,28 @@ echo $this->Html->css('demo_table');
             <div id="tabs-1">
               <center><div id="cargando"></div></center>
                <div id="resultado"></div>
+                
+               <!-- Modal -->
+                <div id="eliminar_usuario" class="modal hide" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h3 id="myModalLabel">Eliminar Usuario</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p>¿Desea eliminar el usuario?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn" data-dismiss="modal" aria-hidden="true">Cancelar</button>
+                        <button  id="btn_aceptar_eliminar_usuario" class="btn btn-primary">Aceptar</button>
+                    </div>
+                </div>
                
                <br><br>
                <a id="agregar_usuario" class="btn btn-success" style="color:white;"><i class="icon-plus icon-white"></i> Agregar</a>
-                <a id="agregar_usuario2" class="btn btn-warning" style="color:white;"><i class="icon-edit icon-white"></i> Modificar</a>
+               <!-- 
+               <a id="agregar_usuario2" class="btn btn-warning" style="color:white;"><i class="icon-edit icon-white"></i> Modificar</a>
                 <a id="agregar_usuario3" class="btn btn-danger" style="color:white;"><i class="icon-minus icon-white"></i> Eliminar</a>   
-                
+                -->
             </div>
             <!-- Roles -------------------------------------------------------------------------------------------->
             <div id="tabs-2">
@@ -39,9 +55,7 @@ echo $this->Html->css('demo_table');
             <div id="tabs-4">
             </div>
         </div>
-        <div style="float: left; margin: 10px;">
-            <a onClick="history.go( -1 );return true;" style="width: 100px; float: right; color: #FFFFFF;" class="btn btn-large btn-block btn-info">Volver</a>
-        </div>
+        
     </div>
 </div> <!-- /container -->
 <!-- MODAL  -------------------------------------------------------------------------->

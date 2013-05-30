@@ -1,6 +1,14 @@
 $(document).ready(inicializarPagina);
 
 function inicializarPagina() { 
+    
+    $("#btn_aceptar_eliminar_usuario").click(function(){
+        
+        alert('das');
+        alert($(this).parents('tr')[0]);
+    
+    });
+    
     $("#tabs").tabs();
      
     $("li").removeClass("active");
