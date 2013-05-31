@@ -6782,3 +6782,36 @@ Request URL: /rondin/css/images/ui-bg_glass_75_dadada_1x400.png
 Stack Trace:
 #0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-05-31 07:03:59 Error: [MissingActionException] Action ConfiguracionController::agregarRondaModal() could not be found.
+Exception Attributes: array (
+  'controller' => 'ConfiguracionController',
+  'action' => 'agregarRondaModal',
+)
+Request URL: /rondin/Configuracion/agregarRondaModal
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ConfiguracionController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-05-31 07:04:01 Error: [MissingActionException] Action ConfiguracionController::agregarRondaModal() could not be found.
+Exception Attributes: array (
+  'controller' => 'ConfiguracionController',
+  'action' => 'agregarRondaModal',
+)
+Request URL: /rondin/Configuracion/agregarRondaModal
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ConfiguracionController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-05-31 07:04:03 Error: [MissingActionException] Action ConfiguracionController::agregarRondaModal() could not be found.
+Exception Attributes: array (
+  'controller' => 'ConfiguracionController',
+  'action' => 'agregarRondaModal',
+)
+Request URL: /rondin/Configuracion/agregarRondaModal
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ConfiguracionController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

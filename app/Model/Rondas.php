@@ -13,46 +13,6 @@ class Rondas extends AppModel {
    }
    
    function searchAll(){
-    /*
-    SELECT  ronda.nombre, 
-    GROUP_CONCAT(diaronda.dia) AS dias, 
-    GROUP_CONCAT(horarioronda.hora) AS horarios, 
-    GROUP_CONCAT(puntocontrol.nombre) AS puntoscontrol, 
-    ronda.observaciones  
-    FROM ronda 
-      LEFT JOIN diaronda ON ronda.idronda = diaronda.ronda_idronda 
-      LEFT JOIN horarioronda ON ronda.idronda = horarioronda.ronda_idronda
-      LEFT JOIN ronda_puntocontrol ON ronda.idronda = ronda_puntocontrol.ronda_idronda
-      LEFT JOIN puntocontrol ON ronda_puntocontrol.puntocontrol_idtag = puntocontrol.idtag
-    GROUP BY ronda.idronda;
-    
-    $params = array(
-            'conditions' => array('Users.rut !='=>1),
-            'fields' => array('Users.rut', 'Users.dv', 'Users.nombre', 'Users.ap_paterno', 'Users.ap_materno', 'r.descripcion'),
-            'joins' => array(
-                array(
-                    'table' => 'usuariorol',
-                    'alias' => 'ur',
-                    'type'  => 'left',
-                    'conditions' => array('ur.rut = Users.rut')
-                ),
-                array(
-                    'table' => 'rol',
-                    'alias' => 'r',
-                    'type'  => 'left',
-                    'conditions' => array('ur.id_rol = r.id_rol')
-                )
-            ),
-            'group' => 
-            'order' => array('Users.rut ASC')
-        );
-
-
-GROUP_CONCAT(diaronda.dia) AS dias, 
-    GROUP_CONCAT(horarioronda.hora) AS horarios, 
-    GROUP_CONCAT(puntocontrol.nombre) AS puntoscontrol, 
-    */
-
        $params = array(
             'fields' => array('Rondas.nombre', 'Rondas.observaciones', 'GROUP_CONCAT(DISTINCT(dr.dia) ORDER BY dr.dia) AS dias', 'GROUP_CONCAT(DISTINCT(hr.hora)) AS horas', 'GROUP_CONCAT(DISTINCT(pc.nombre)) AS puntoscontrol'),
             'joins' => array(
