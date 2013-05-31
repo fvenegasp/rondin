@@ -53,10 +53,10 @@ $cakeDescription = __d('cake_dev', 'Demo');
 
                     <div class="nav-collapse">
                         <ul class="nav">                              
-                            <li id="li_administracion" class="active"><a href="<?php  echo $this->Html->url('/', true) . 'administracion'; ?>"><i class="icon-home"></i> Administración</a></li>
+                            <li id="li_administracion" ><a href="<?php  echo $this->Html->url('/', true) . 'administracion'; ?>"><i class="icon-home"></i> Administración</a></li>
 
                             <li id="li_configuracion"><a href="<?php echo $this->Html->url('/', true) . 'configuracion'; ?>"><i class="icon-cog"></i> Configuración</a></li>
-                            <li><a href="#"><i class="icon-eye-open"></i> Mis rondas</a></li>
+                            <li id="li_rondas"><a href="<?php echo $this->Html->url('/', true) . 'rondas'; ?>"><i class="icon-eye-open"></i> Rondas</a></li>
                             <li><a href="#"><i class="icon-file"></i> Reportes</a></li>
 
 
