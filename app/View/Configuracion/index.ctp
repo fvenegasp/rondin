@@ -24,10 +24,7 @@ echo $this->Html->css('demo_table');
                <br><br>
                 
 
-               <a id="agregar_usuario" class="btn btn-success" style="color:white;"><i class="icon-plus icon-white"></i> Agregar</a>
-                <a id="agregar_usuario2" class="btn btn-warning" style="color:white;"><i class="icon-edit icon-white"></i> Modificar</a>
-                <a id="agregar_usuario3" class="btn btn-danger" style="color:white;"><i class="icon-minus icon-white"></i> Eliminar</a>
-                
+               <a id="agregar_usuario" class="btn btn-success" style="color:white;"><i class="icon-plus icon-white"></i> Agregar</a>                
             </div>
             <!-- Roles -->
             <div id="tabs-2">

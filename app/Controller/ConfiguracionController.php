@@ -14,16 +14,16 @@ class ConfiguracionController  extends AppController {
    
     var $helpers = array('Html', 'Js', 'JqueryEngine', 'Form');
     var $components = array('RequestHandler');
-    var $uses = array('Users', 'Roles', 'RolUsuario');
+    var $uses = array('Rondas');
      
-    function index(){
+    function index(){   
         $this->chekSession();
         $this->layout = 'home';
     }
     
     function mostrarRondas(){
         //$this->layout = 'ajax';
-        $this->set('rondas', $this->Users->searchAll());
+        $this->set('rondas', $this->Rondas->searchAll());
         $this->render('rondas');
     }
     
