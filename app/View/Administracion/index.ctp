@@ -14,9 +14,8 @@ echo $this->Html->css('demo_table');
         <div id="tabs">
             <ul>
                 <li><a href="#tabs-1">Usuarios</a></li>
-                <li><a href="#tabs-2">Roles</a></li>
-                <li><a href="#tabs-3">Recursos</a></li>
-                <li><a href="#tabs-4">Menu</a></li>
+                <li><a href="#tabs-2">Privilegios</a></li>
+                
             </ul>
             <!-- Ususarios ------------------------------------------------------------------------------------------>
             <div id="tabs-1">
@@ -45,14 +44,8 @@ echo $this->Html->css('demo_table');
                 <a id="agregar_usuario3" class="btn btn-danger" style="color:white;"><i class="icon-minus icon-white"></i> Eliminar</a>   
                 -->
             </div>
-            <!-- Roles -------------------------------------------------------------------------------------------->
+            <!-- Privilegios -------------------------------------------------------------------------------------------->
             <div id="tabs-2">
-            </div>
-            <!-- Recursos  -------------------------------------------------------------------------------------------->
-            <div id="tabs-3">
-            </div>
-            <!-- Menu -------------------------------------------------------------------------------------------->
-            <div id="tabs-4">
             </div>
         </div>
         
