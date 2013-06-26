@@ -7007,3 +7007,1477 @@ Stack Trace:
 #0 C:\Program Files (x86)\EasyPHP-12.1\www\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 >>>>>>> c98d560fbd088261846536694e840370fb7bba7b
+2013-06-02 05:01:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_dadada_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-02 05:01:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-02 05:01:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-02 05:01:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-02 05:01:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_65_ffffff_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-09 06:25:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/sort_asc.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-09 06:25:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/sort_both.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-09 06:26:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-09 06:26:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-09 06:26:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-09 06:26:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_65_ffffff_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-09 06:26:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_dadada_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-09 07:24:49 Error: [MissingActionException] Action ConfiguracionController::agregarRondaModal() could not be found.
+Exception Attributes: array (
+  'controller' => 'ConfiguracionController',
+  'action' => 'agregarRondaModal',
+)
+Request URL: /rondin/Configuracion/agregarRondaModal
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ConfiguracionController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-09 07:31:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-09 07:31:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-09 07:31:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_65_ffffff_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-09 07:31:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-09 07:31:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_dadada_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-09 07:31:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-09 07:31:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_65_ffffff_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-09 07:31:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-09 07:31:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-09 07:32:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_dadada_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-09 07:38:12 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\View\Configuracion\rondas.ctp, line 15]
+2013-06-09 07:38:12 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /rondin/Configuracion/mostrarRondas
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\Program File...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\Program File...', 15, Array)
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\Program File...', 15, Array)
+#3 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-09 07:38:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-09 07:38:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-09 07:38:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-09 07:38:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_65_ffffff_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-09 07:38:57 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\View\Configuracion\rondas.ctp, line 15]
+2013-06-09 07:38:58 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /rondin/Configuracion/mostrarRondas
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\Program File...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\Program File...', 15, Array)
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\Program File...', 15, Array)
+#3 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-09 07:38:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_dadada_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-09 07:39:16 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\View\Configuracion\rondas.ctp, line 15]
+2013-06-09 07:39:16 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /rondin/Configuracion/mostrarRondas
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\Program File...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\Program File...', 15, Array)
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\Program File...', 15, Array)
+#3 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-09 07:39:34 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\View\Configuracion\rondas.ctp, line 15]
+2013-06-09 07:39:34 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /rondin/Configuracion/mostrarRondas
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\Program File...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\Program File...', 15, Array)
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\Program File...', 15, Array)
+#3 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-09 07:39:53 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\View\Configuracion\rondas.ctp, line 15]
+2013-06-09 07:39:53 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /rondin/Configuracion/mostrarRondas
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\Program File...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\Program File...', 15, Array)
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\Program File...', 15, Array)
+#3 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-09 07:41:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-09 07:41:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-09 07:41:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-09 07:41:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_65_ffffff_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-09 07:44:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/sort_asc.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-09 07:44:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/sort_both.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-09 07:44:16 Error: [MissingActionException] Action RondasController::mostrarRondas() could not be found.
+Exception Attributes: array (
+  'controller' => 'RondasController',
+  'action' => 'mostrarRondas',
+)
+Request URL: /rondin/rondas/mostrarRondas?_=1370756656043
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RondasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-09 07:59:39 Error: [MissingActionException] Action RondasController::mostrarRondas() could not be found.
+Exception Attributes: array (
+  'controller' => 'RondasController',
+  'action' => 'mostrarRondas',
+)
+Request URL: /rondin/rondas/mostrarRondas?_=1370757579604
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RondasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-09 07:59:51 Error: [MissingActionException] Action RondasController::editarRondas() could not be found.
+Exception Attributes: array (
+  'controller' => 'RondasController',
+  'action' => 'editarRondas',
+)
+Request URL: /rondin/rondas/editarRondas
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RondasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-09 07:59:55 Error: [MissingActionException] Action RondasController::editarRondas() could not be found.
+Exception Attributes: array (
+  'controller' => 'RondasController',
+  'action' => 'editarRondas',
+)
+Request URL: /rondin/rondas/editarRondas
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RondasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-09 08:00:50 Error: [MissingActionException] Action RondasController::mostrarRondas() could not be found.
+Exception Attributes: array (
+  'controller' => 'RondasController',
+  'action' => 'mostrarRondas',
+)
+Request URL: /rondin/rondas/mostrarRondas?_=1370757650407
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RondasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-09 08:01:06 Error: [MissingActionException] Action RondasController::mostrarRondas() could not be found.
+Exception Attributes: array (
+  'controller' => 'RondasController',
+  'action' => 'mostrarRondas',
+)
+Request URL: /rondin/rondas/mostrarRondas?_=1370757666448
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RondasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-09 08:05:58 Error: [MissingActionException] Action RondasController::mostrarRondas() could not be found.
+Exception Attributes: array (
+  'controller' => 'RondasController',
+  'action' => 'mostrarRondas',
+)
+Request URL: /rondin/rondas/mostrarRondas?_=1370757957988
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RondasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-09 08:06:13 Error: [MissingActionException] Action RondasController::mostrarRondas() could not be found.
+Exception Attributes: array (
+  'controller' => 'RondasController',
+  'action' => 'mostrarRondas',
+)
+Request URL: /rondin/rondas/mostrarRondas?_=1370757972877
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RondasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-10 03:13:40 Error: [MissingActionException] Action ConfiguracionController::agregarRondaModal() could not be found.
+Exception Attributes: array (
+  'controller' => 'ConfiguracionController',
+  'action' => 'agregarRondaModal',
+)
+Request URL: /rondin/Configuracion/agregarRondaModal
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ConfiguracionController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-10 03:13:48 Error: [MissingActionException] Action RondasController::editarRondas() could not be found.
+Exception Attributes: array (
+  'controller' => 'RondasController',
+  'action' => 'editarRondas',
+)
+Request URL: /rondin/rondas/editarRondas
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RondasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-12 01:39:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/sort_both.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-12 01:39:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/sort_asc.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-12 01:39:21 Error: [MissingActionException] Action ConfiguracionController::mostrarUsuarios() could not be found.
+Exception Attributes: array (
+  'controller' => 'ConfiguracionController',
+  'action' => 'mostrarUsuarios',
+)
+Request URL: /rondin/Configuracion/mostrarUsuarios?_=1370993961589
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ConfiguracionController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-12 01:39:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-12 01:39:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-12 01:39:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_65_ffffff_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-12 01:39:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-12 01:39:37 Error: [MissingActionException] Action RondasController::mostrarRondas() could not be found.
+Exception Attributes: array (
+  'controller' => 'RondasController',
+  'action' => 'mostrarRondas',
+)
+Request URL: /rondin/rondas/mostrarRondas?_=1370993977372
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RondasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-12 01:39:39 Error: [MissingActionException] Action ConfiguracionController::mostrarUsuarios() could not be found.
+Exception Attributes: array (
+  'controller' => 'ConfiguracionController',
+  'action' => 'mostrarUsuarios',
+)
+Request URL: /rondin/Configuracion/mostrarUsuarios?_=1370993979742
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ConfiguracionController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-12 01:39:46 Error: [MissingActionException] Action ConfiguracionController::mostrarUsuarios() could not be found.
+Exception Attributes: array (
+  'controller' => 'ConfiguracionController',
+  'action' => 'mostrarUsuarios',
+)
+Request URL: /rondin/Configuracion/mostrarUsuarios?_=1370993986030
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ConfiguracionController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-12 01:39:49 Error: [MissingActionException] Action RondasController::mostrarRondas() could not be found.
+Exception Attributes: array (
+  'controller' => 'RondasController',
+  'action' => 'mostrarRondas',
+)
+Request URL: /rondin/rondas/mostrarRondas?_=1370993989319
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RondasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-12 01:39:54 Error: [MissingActionException] Action ConfiguracionController::mostrarUsuarios() could not be found.
+Exception Attributes: array (
+  'controller' => 'ConfiguracionController',
+  'action' => 'mostrarUsuarios',
+)
+Request URL: /rondin/Configuracion/mostrarUsuarios?_=1370993994341
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ConfiguracionController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-12 01:40:04 Error: [MissingActionException] Action RondasController::mostrarRondas() could not be found.
+Exception Attributes: array (
+  'controller' => 'RondasController',
+  'action' => 'mostrarRondas',
+)
+Request URL: /rondin/rondas/mostrarRondas?_=1370994004094
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RondasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-12 01:40:56 Error: [MissingActionException] Action RondasController::mostrarRondas() could not be found.
+Exception Attributes: array (
+  'controller' => 'RondasController',
+  'action' => 'mostrarRondas',
+)
+Request URL: /rondin/rondas/mostrarRondas?_=1370994056353
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RondasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-12 02:04:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-12 02:04:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-12 02:04:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-12 02:04:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_65_ffffff_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-12 02:04:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_dadada_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-12 06:31:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-12 06:31:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-12 06:31:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-12 06:31:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_65_ffffff_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-12 06:56:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-12 06:56:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-12 06:56:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-12 06:56:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_65_ffffff_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-12 06:56:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_dadada_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-12 07:05:35 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\View\Configuracion\index.ctp, line 18]
+2013-06-12 07:05:36 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /rondin/configuracion
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\Program File...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\Program File...', 18, Array)
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\Program File...', 18, Array)
+#3 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-12 07:13:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/sort_asc.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-12 07:13:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/sort_both.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 15:10:01 Error: [MissingActionException] Action RondasController::editarRondas() could not be found.
+Exception Attributes: array (
+  'controller' => 'RondasController',
+  'action' => 'editarRondas',
+)
+Request URL: /rondin/rondas/editarRondas
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RondasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-13 15:10:04 Error: [MissingActionException] Action RondasController::editarRondas() could not be found.
+Exception Attributes: array (
+  'controller' => 'RondasController',
+  'action' => 'editarRondas',
+)
+Request URL: /rondin/rondas/editarRondas
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RondasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-13 15:11:05 Error: [MissingActionException] Action RondasController::editarRondas() could not be found.
+Exception Attributes: array (
+  'controller' => 'RondasController',
+  'action' => 'editarRondas',
+)
+Request URL: /rondin/rondas/editarRondas
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RondasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-13 15:11:42 Error: [MissingActionException] Action RondasController::editarRondas() could not be found.
+Exception Attributes: array (
+  'controller' => 'RondasController',
+  'action' => 'editarRondas',
+)
+Request URL: /rondin/rondas/editarRondas
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RondasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-13 15:12:40 Error: [MissingActionException] Action ConfiguracionController::editarRondas() could not be found.
+Exception Attributes: array (
+  'controller' => 'ConfiguracionController',
+  'action' => 'editarRondas',
+)
+Request URL: /rondin/configuracion/editarRondas
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ConfiguracionController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-13 15:25:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/sort_asc.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 15:25:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/sort_both.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 15:26:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 15:26:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 15:26:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 15:26:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_65_ffffff_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 15:50:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_dadada_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:29:34 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'agregarRonda' at line 1
+Request URL: /rondin/configuracion/editarRondas
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('agregarRonda', Array)
+#2 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Model\Datasource\DboSource.php(670): DboSource->execute('agregarRonda', Array, Array)
+#3 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Model\Datasource\DboSource.php(612): DboSource->fetchAll('agregarRonda', Array, Array)
+#4 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Model\Model.php(800): DboSource->query('agregarRonda', Array, Object(Rondas))
+#5 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\Controller\ConfiguracionController.php(58): Model->__call('agregarRonda', Array)
+#6 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\Controller\ConfiguracionController.php(58): Rondas->agregarRonda(Array)
+#7 [internal function]: ConfiguracionController->editarRondas()
+#8 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(ConfiguracionController), Array)
+#9 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ConfiguracionController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-06-13 16:32:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:32:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:32:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:32:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_65_ffffff_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:32:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/sort_asc.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:32:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/sort_both.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:33:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_dadada_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:37:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:37:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:37:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/sort_asc.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:37:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_65_ffffff_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:37:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:37:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/sort_both.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:37:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:37:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:37:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_65_ffffff_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:37:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:37:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/sort_asc.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:37:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/sort_both.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:38:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:38:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:38:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:38:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_65_ffffff_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:38:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/sort_asc.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:38:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/sort_both.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:39:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:39:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:39:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:39:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_65_ffffff_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:39:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/sort_asc.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:39:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/sort_both.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:39:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:39:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:39:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:39:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_65_ffffff_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:39:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/sort_asc.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:39:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/sort_both.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:40:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:40:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:40:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:40:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/sort_both.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:40:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_65_ffffff_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:40:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/sort_asc.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:42:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_dadada_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:44:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:44:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:44:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:44:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/sort_both.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:44:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_65_ffffff_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:44:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/sort_asc.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:47:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_dadada_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:57:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:57:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:57:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:57:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/sort_both.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:57:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_65_ffffff_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:57:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/sort_asc.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 16:59:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_dadada_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-18 02:48:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-18 02:48:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-18 02:48:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-18 02:48:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/ui-bg_glass_65_ffffff_1x400.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-18 02:48:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/sort_asc.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-18 02:48:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rondin/css/images/sort_both.png
+Stack Trace:
+#0 C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\rondin\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

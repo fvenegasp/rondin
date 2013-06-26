@@ -1,34 +1,52 @@
+var editor;
 $(document).ready(inicializarPagina);
 
 function inicializarPagina() { 
     $("#tabs").tabs();
-     
     $("li").removeClass("active");
     $("#li_configuracion").addClass("active");
-    
 
-    cargarRondas();
-        
-    $("#agregar_usuario").click(AgregarUsuario);
-}
-
-function cargarRondas(){
-    $.ajax({
-            type: "POST",
-            url: url_mostrar_rondas, // llamado al controlador
-            beforeSend: function() {
-               $('#resultado').empty();
-               $('#cargando').prepend('<img src="img/window_loader.gif" />')
-            },
-            complete: function() {
-               $('#cargando').empty();
-            },
-            success: function(a) {
-                $('#cargando').empty();
-                $("#resultado").append(a);
+    editor = new $.fn.dataTable.Editor( {
+        "ajaxUrl": url_edit_rondas,
+        "domTable": "#examplerondas",
+        "fields": [
+             {
+                "label": "Nombre:",
+                "name": "nombre"
+            }, {
+                "label": "Observaciones:",
+                "name": "observaciones"
             }
-        }); // fin peticion ajax  
+        ]
+    } );
+
+
+    $('#examplerondas').dataTable( {
+            "sDom": "<'row-fluid'<'span6'T><'span6'f>r>t<'row-fluid'<'span6'i><'span6'p>>",
+            "sAjaxSource": url_get_rondas,
+            "oLanguage": {
+              "sSearch": "Buscar:",
+              "sInfo": "Mostrando _TOTAL_ rondas de (_START_ a _END_)",
+              "oPaginate": {
+                "sNext": "Siguiente",
+                "sPrevious": "Anterior"
+              }
+            },
+            "aoColumns": [
+                { "mData": "nombre" },
+                { "mData": "observaciones" }
+            ],
+            "oTableTools": {
+                "sRowSelect": "multi",
+                "aButtons": [
+                    { "sExtends": "editor_create", "editor": editor, "sButtonText": "Crear" },
+                    { "sExtends": "editor_edit",   "editor": editor, "sButtonText": "Modificar" },
+                    { "sExtends": "editor_remove", "editor": editor, "sButtonText": "Eliminar" }
+                ]
+            }
+    } );
 }
+
 
 function AgregarUsuario(){
     modalAgregarUsuario('');

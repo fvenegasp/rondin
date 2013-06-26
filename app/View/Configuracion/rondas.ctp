@@ -1,63 +1,73 @@
-<?php echo $this->Html->script('jquery.dataTables'); ?>
-<script>
-    $('#tabla_rondas').dataTable( {
-        "bJQueryUI": false,
-        //"sPaginationType": "full_numbers",
-        "oLanguage": {
-            "sSearch":"Buscar", 
-            "sLengthMenu": "Mostrar _MENU_ registros por pagina",
-            "sZeroRecords": "No se encontró nada",
-            "sInfo": "Mostrar _START_ a _END_ de _TOTAL_ registros",
-            "sInfoEmpty": "Mostrar 0 a 0 de 0 registros",
-            "sInfoFiltered": "(Filtrado de _MAX_ registros totales)",
-            "oPaginate": {
-                "sFirst":    "Primero",
-                "sLast":     "Último",
-                "sNext":     "Siguiente",
-                "sPrevious": "Anterior"
-            }
-        }
-    } );
+<?php
+echo $this->Html->script(array(
+    'jquery-1.8.3',
+    'jquery.dataTables', 
+    'TableTools',
+    'dataTables.editor', 
+    'bootstrap.min',
+    'dataTables.bootstrap',
+    'dataTables.editor.bootstrap',
+    'jquery.Rut',
+    'configuracion'
+    
+    ));
+
+//echo $this->Html->css('bootstrap');
+echo $this->Html->css('dataTables.bootstrap');
+
+?> 
+
+<script type="text/javascript" language="javascript">
+    var url_data_rondas = "<?php echo $this->Html->url(array("controller" => "configuracion", "action" => "mostrarRondas")); ?>";      
+    //var url_data_edit = "<?php echo $this->Html->url(array("controller" => "rondas", "action" => "editarRondas")); ?>";      
 </script>
-<table id="tabla_rondas" width="100%" style="margin-top: 20px;">
+<style type="text/css">
+    #container {
+        padding-top: 60px !important;
+        width: 960px !important;
+    }
+    #dt_example .big {
+        font-size: 1.3em;
+        line-height: 1.45em;
+        color: #111;
+        margin-left: -10px;
+        margin-right: -10px;
+        font-weight: normal;
+    }
+    #dt_example {
+        font: 95%/1.45em "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+        color: #111;
+    }
+    div.dataTables_wrapper, table {
+        font: 13px/1.45em "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+    }
+    #dt_example h1 {
+        font-size: 16px !important;
+        color: #111;
+    }
+    #footer {
+        line-height: 1.45em;
+    }
+    div.examples {
+        padding-top: 1em !important;
+    }
+    div.examples ul {
+        padding-top: 1em !important;
+        padding-left: 1em !important;
+        color: #111;
+    }
+</style>
+<table cellpadding="0" cellspacing="0" border="0" class="table table-striped table-bordered" id="examplerondas" width="100%">
     <thead>
-        <tr style="border-bottom: 1px SOLID #000000;">
-            <td width="15%"><b><center>Nombre</center></b></td>
-            <td width="15%"><b><center>Repeticiones</center></b></td>
-            <td width="15%"><b><center>Horarios</center></b></td>
-            <td width="15%"><b><center>Puntos de control</center></b></td>
-            <td width="20%"><b><center>Observaciones</center></b></td>
-            
-            
-            <td width="15%"><b><center>Acci&oacute;n</center></b></td>
-        </tr>
+        <tr>
+            <th width="30%">Nombre</th>
+            <th width="20%">Observaciones</th>
+         </tr>
     </thead>
-    <tbody>
-        <?php foreach ($rondas as $ronda): ?>
-            <tr>                
-                <?php $dias = str_replace(array('1','2','3','4','5','6','7'), array('Lun','Mar','Mie','Jue','Vie','Sab','Dom'), $ronda[0]['dias']); ?>
-                <td class="span3"><?php echo $ronda['Rondas']['nombre']; ?></td>
-                <td class="span3"><?php echo $dias; ?></td>
-                <td class="span3"><?php echo str_replace(',', '<br>', $ronda[0]['horas']); ?></td>    
-                <td class="span3"><?php echo str_replace(',', '<br>', $ronda[0]['puntoscontrol']); ?></td>                            
-                <td class="span3"><?php echo $ronda['Rondas']['observaciones']; ?></td>
-                
-                
-                                
-    <td class="span2">
-    <center>
-                                         
-        <?php
-        echo $this->Html->image("edit2.png", 
-                array( 'id' => 'modificar_usuario', 'url' => '#', 'onclick' => "modalAgregarUsuario('')" ) 
-        );
-         echo $this->Html->image("delete2.png", 
-                array('url' => '#', 'onclick' => "eliminarUsuario('')" ) 
-        );
-        ?>
-    </center>
-    </td>
-    </tr>
-<?php endforeach; ?>
-</tbody>
+    <tfoot>
+       <tr>
+            <th>Nombre</th>
+            <th>Observaciones</th>
+        </tr>
+    </tfoot>
 </table>
