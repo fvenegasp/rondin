@@ -1,13 +1,12 @@
 $(document).ready(inicializarPagina);
 
+var rut = "";
+
 function inicializarPagina() { 
     
     $("#btn_aceptar_eliminar_usuario").click(function(){
-        
-        alert('das');
-        alert($(this).parents('tr')[0]);
-    
-    });
+        eliminarUsuario(rut);
+     });
     
     $("#tabs").tabs();
      
@@ -37,6 +36,10 @@ function cargarUsuarios(){
         }); // fin peticion ajax  
 }
 
+function selectRut(r){
+    rut = r;
+}
+
 function AgregarUsuario(){
     modalAgregarUsuario('');
 }
@@ -64,7 +67,7 @@ function modalAgregarUsuario(rut){
 }
 
 function eliminarUsuario(rut){
-    if (confirm('¿Desea eliminar el usuario?')) {
+   
             $.ajax({
                 type: 'POST',
                 data: "rut="+rut,
@@ -72,7 +75,8 @@ function eliminarUsuario(rut){
                 dataType: 'json',
                 success: function(dat){
                     if(dat.estado==true){
-                        cargarUsuarios();
+                       $('#eliminar_usuario').modal('toggle')
+                       cargarUsuarios();
                     }
                 },
                 complete: function() {
@@ -82,7 +86,7 @@ function eliminarUsuario(rut){
                    overLoader(1,'Eliminando...');
                 }
             });
-        }
+        
 }
 
 function overLoader(sw, msg){

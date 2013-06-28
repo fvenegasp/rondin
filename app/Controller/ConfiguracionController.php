@@ -10,147 +10,89 @@
  *
  * @author Felipe Venegas
  */
-class ConfiguracionController  extends AppController {
-   
+
+
+class ConfiguracionController extends AppController {
+
     var $helpers = array('Html', 'Js', 'JqueryEngine', 'Form');
-    var $components = array('RequestHandler');
+    var $components = array('RequestHandler');    
     var $uses = array('Rondas');
-     
-    function index(){   
-        $this->chekSession();
+
+    function index() {
         $this->layout = 'home';
     }
-    
-    function mostrarRondas(){
-        //$this->layout = 'ajax';
-        $this->set('rondas', $this->Rondas->searchAll());
-        $this->render('rondas');
-    }
-    
-    function progreso(){
-        $this->layout = 'ajax';
-        $this->render('progreso');
-    }
-    
-    function agregarUsuarioModal(){
-        $this->layout = 'ajax';
-        $this->set('roles',  $this->Roles->listRoles());
-        
-        $rutdv = $this->data['rut'];
-        
-        if($rutdv){
-            $rutx = strtoupper(ereg_replace('\.|,','', strtoupper($this->data['rut'])));
-            $rutx = explode('-', $rutx);
-            $rut = $rutx[0];
-            $dv = $rutx[1];
 
-            $conditions = array('Users.rut' => $rut, 'Users.dv' => $dv);
-            $resp = $this->Users->searchData($conditions);
-            
-             if ($resp) {
-                foreach ($resp as $value) {
-                    $this->set('nombre',$value['Users']['nombre']);
-                    $this->set('ap_paterno', $value['Users']['ap_paterno']);
-                    $this->set('ap_materno', $value['Users']['ap_materno']);
-                    $this->set('id_rol', $value['ur']['id_rol']);
-                }
+    function mostrarRondas() {
+        $this->set('rondas', $this->Rondas->searchAll());
+        $this->render('rondas');   
+        $i = 0;
+        foreach ($this->Rondas->searchAll() as $ronda) {
+            $datos[$i] = array(
+                'DT_RowId' => 'row_' . $i,
+                'nombre' => $ronda['Rondas']['nombre'],
+                'observaciones' => $ronda['Rondas']['observaciones'],
+                'acciones' => " <button class='btn btn-warning' type='button'><i class='icon-edit icon-white'></button>
                                 
-                $this->set('rut',$rutdv);
-            } 
-        }
-            
-        $this->render('agregar');
-    }
-    
-    function checkUsuario(){
-        $rutx = strtoupper(ereg_replace('\.|,','', strtoupper($this->data['rut'])));
-        $rutx = explode('-', $rutx);
-        $rut = $rutx[0];
-        $dv = $rutx[1];
-        
-        $conditions = array('Users.rut' => $rut, 'Users.dv' => $dv);
-        $resp = $this->Users->searchData($conditions);
-           if ($resp) {
-                foreach ($resp as $value) {
-                   $data['nombre'] = $value['Users']['nombre'];
-                   $data['ap_paterno'] = $value['Users']['ap_paterno'];
-                   $data['ap_materno'] = $value['Users']['ap_materno'];
-                   $data['id_rol'] = $value['ur']['id_rol'];
-                }
-                               
-                $data['msg'] = 'datos validos';
-                $data['estado'] = true;
-            } else {
-                $data['msg'] = 'datos no validos';
-                $data['estado'] = false;
-            }
-       
-        $this->fn_json_encode($this, $data);
-    }
-    
-    function modificarUsuario(){
-        $rutx = strtoupper(ereg_replace('\.|,','', strtoupper($this->data['rut'])));
-        $rutx = explode('-', $rutx);
-        $rut = $rutx[0];
-        $dv = $rutx[1];
-        $nombre = $this->data['nombre'];
-        $ap_paterno = $this->data['ap_paterno'];
-        $ap_materno = $this->data['ap_materno'];
-        $rol = $this->data['rol'];
-        
-        
-        $fields = array('nombre'=> "'$nombre'", 'ap_paterno'=> "'$ap_paterno'", 'ap_materno'=> "'$ap_materno'");
-        $conditions = array('rut' => $rut, 'dv' => $dv);
-        if( $this->Users->modificarUsuario($fields,$conditions) ){
-            $fields = array('id_rol'=> $rol);
-            $conditions = array('rut' => $rut);
-            $data['estado'] = $this->RolUsuario->modificarRolUsuario($fields,$conditions);
-        }
-                        
-        $this->fn_json_encode($this, $data);
-    }
-    
-    function eliminarUsuario(){
-        $rutx = strtoupper(ereg_replace('\.|,','', strtoupper($this->data['rut'])));
-        $rutx = explode('-', $rutx);
-        $rut = $rutx[0];
-        $dv = $rutx[1];
-        
-        $conditions = array('rut'=>$rut);
-        if( $this->Users->eliminarUsuario($conditions)){
-            $data['estado'] = $this->RolUsuario->eliminarRolUsuario($conditions);
-        }
-        
-        $this->fn_json_encode($this, $data);
-    }
-    
-    function agregarUsuario(){
-        $rutx = strtoupper(ereg_replace('\.|,','', strtoupper($this->data['rut'])));
-        $rutx = explode('-', $rutx);
-        $rut = $rutx[0];
-        $dv = $rutx[1];
-        $nombre = $this->data['nombre'];
-        $ap_paterno = $this->data['ap_paterno'];
-        $ap_materno = $this->data['ap_materno'];
-        $rol = $this->data['rol'];
-        $password = md5($this->data['password']);
-        
-        
-        $datos = array( 'rut' => $rut, 'dv' => $dv,
-            'nombre'=> $nombre, 
-            'ap_paterno'=> $ap_paterno, 
-            'ap_materno'=> $ap_materno,
-            'contrasena'=> $password
+                                <a class='btn btn-danger' href='#eliminar_usuario' data-toggle='modal' onclick='selectRut()'><i class='icon-minus icon-white'></i></a>"
             );
-        
-        if( $this->Users->agregarUsuario($datos) ){
-            $fields = array('id_rol'=> $rol);
-            $conditions = array('rut' => $rut);
-            $data['estado'] = $this->RolUsuario->modificarRolUsuario($fields,$conditions);
+            $i++;
         }
-                        
+
+        $data['id'] = -1;
+        $data['error'] = "";
+        $data['fieldErrors'] = array();
+        $data['data'] = array();
+
+        $data['aaData'] = $datos;
+
         $this->fn_json_encode($this, $data);
     }
+
+    function editarRondas(){
+        if ($this->data['action'] == 'create') {
+            $nombre         = $this->data['nombre'];
+            $observaciones  = $this->data['observaciones'];
+
+            $datos = array(
+                'nombre'        => $nombre,
+                'observaciones' => $observaciones
+            );
+
+            if ($this->Rondas->agregarRonda($datos)) {
+                
+                $datos[0] = array('DT_RowId' => 'row_1',
+                    'item' => '',
+                    'done' => "To do",
+                    'priority' => 1
+                );
+
+                $data['id'] = "row_1";
+                $data['error'] = "";
+                $data['fieldErrors'] = array();
+                $data['data'] = array();
+
+                $data['aaData'] = $datos;
+            }else{
+               
+                $data['id'] = -1;
+                $data['error'] = "ERROR AL AGREGAR...";
+                $data['fieldErrors'] = array();
+                $data['data'] = array();
+
+                $data['aaData'] = array();
+            }
+        }
+        
+         if ($this->data['action'] == 'remove') {
+             
+         }
+
+        $this->fn_json_encode($this, $data);
+    }
+
+    
+
 }
+
 
 ?>

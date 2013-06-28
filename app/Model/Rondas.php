@@ -81,5 +81,11 @@ class Rondas extends AppModel {
       $ret = ($this->deleteAll($conditions, false))? true : false;
       return $ret; 
    }
+
+   function agregarRonda($datos){
+      $ret = ($this->save($datos))? true : false;
+      
+      return $ret;
+   }
    
 }?>

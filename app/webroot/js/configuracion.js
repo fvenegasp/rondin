@@ -1,34 +1,39 @@
+var editor;
 $(document).ready(inicializarPagina);
 
 function inicializarPagina() { 
     $("#tabs").tabs();
-     
     $("li").removeClass("active");
     $("#li_configuracion").addClass("active");
-    
 
-    cargarRondas();
-        
-    $("#agregar_usuario").click(AgregarUsuario);
-}
+   
 
-function cargarRondas(){
-    $.ajax({
-            type: "POST",
-            url: url_mostrar_rondas, // llamado al controlador
-            beforeSend: function() {
-               $('#resultado').empty();
-               $('#cargando').prepend('<img src="img/window_loader.gif" />')
+
+    $('#examplerondas').dataTable( {
+            "sDom": "<'row-fluid'<'span6'T><'span6'f>r>t<'row-fluid'<'span6'i><'span6'p>>",
+            "sAjaxSource": url_get_rondas,
+            "oLanguage": {
+              "sSearch": "Buscar:",
+              "sInfo": "Mostrando _TOTAL_ rondas de (_START_ a _END_)",
+              "oPaginate": {
+                "sNext": "Siguiente",
+                "sPrevious": "Anterior"
+              }
             },
-            complete: function() {
-               $('#cargando').empty();
-            },
-            success: function(a) {
-                $('#cargando').empty();
-                $("#resultado").append(a);
+            "aoColumns": [
+                { "mData": "nombre" },
+                { "mData": "observaciones" },
+                { "mData": "acciones" }
+            ],
+            "oTableTools": {
+                //"sRowSelect": "multi",
+                "aButtons": [
+                   
+                ]
             }
-        }); // fin peticion ajax  
+    } );
 }
+
 
 function AgregarUsuario(){
     modalAgregarUsuario('');
