@@ -44,20 +44,9 @@
     <td class="span2">
     <center>
                                          
-        <?php
-        /*
-        echo $this->Html->image("edit2.png", 
-                array( 'id' => 'modificar_usuario', 'url' => '#', 'onclick' => "modalAgregarUsuario('".$rut."')" ) 
-        );
-         echo $this->Html->image("delete2.png", 
-                array('url' => '#', 'onclick' => "eliminarUsuario('".$rut."')" ) 
-        );
-         * 
-         */
-        ?>
+       
         <a id="agregar_usuario2" class="btn btn-warning" style="color:white;"  onclick="modalAgregarUsuario('<?php echo $rut;?>')"><i class="icon-edit icon-white"></i></a>
-        <a id="agregar_usuario3" class="btn btn-danger" style="color:white;" onclick="eliminarUsuario('<?php echo $rut;?>')" ><i class="icon-minus icon-white"></i></a> 
-        <a href="#eliminar_usuario" data-toggle="modal" href="#myModal"><i class="icon-minus icon-white"></i></a> 
+        <a class="btn btn-danger" style="color:white;" href="#eliminar_usuario" data-toggle="modal" onclick="selectRut('<?php echo $rut;?>')"><i class="icon-minus icon-white"></i></a> 
     </center>
     </td>
     </tr>
