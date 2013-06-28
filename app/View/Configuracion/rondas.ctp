@@ -1,5 +1,8 @@
 <?php
+<<<<<<< HEAD
 /*
+=======
+>>>>>>> 7c52a9a373655088ffea87bc895b8e2eb6fc9877
 echo $this->Html->script(array(
     'jquery-1.8.3',
     'jquery.dataTables', 
@@ -72,4 +75,7 @@ echo $this->Html->css('dataTables.bootstrap');
         </tr>
     </tfoot>
 </table>
+<<<<<<< HEAD
 */
+=======
+>>>>>>> 7c52a9a373655088ffea87bc895b8e2eb6fc9877

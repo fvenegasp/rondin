@@ -1,6 +1,10 @@
 <?php
 echo $this->Html->script(array('configuracion', 'jquery.dataTables','TableTools',
+<<<<<<< HEAD
     //'dataTables.editor', 
+=======
+    'dataTables.editor', 
+>>>>>>> 7c52a9a373655088ffea87bc895b8e2eb6fc9877
     'bootstrap.min',
     'dataTables.bootstrap',
     'dataTables.editor.bootstrap',
@@ -32,12 +36,20 @@ echo $this->Html->css('dataTables.bootstrap');
             </ul>
             <!-- Rondas -->
             <div id="tabs-1">              
+<<<<<<< HEAD
                <table class="table table-striped table-bordered" id="examplerondas" width="100%">
                 <thead>
                     <tr>
                         <th width="30%">Nombre</th>
                         <th width="60%">Observaciones</th>
                         <th width="10%">Accion</th>
+=======
+               <table cellpadding="0" cellspacing="0" border="0" class="table table-striped table-bordered" id="examplerondas" width="100%">
+                <thead>
+                    <tr>
+                        <th width="30%">Nombre</th>
+                        <th width="20%">Observaciones</th>
+>>>>>>> 7c52a9a373655088ffea87bc895b8e2eb6fc9877
                      </tr>
                 </thead>
             </table>           

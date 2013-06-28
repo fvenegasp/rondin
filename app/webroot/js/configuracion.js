@@ -6,7 +6,23 @@ function inicializarPagina() {
     $("li").removeClass("active");
     $("#li_configuracion").addClass("active");
 
+<<<<<<< HEAD
    
+=======
+    editor = new $.fn.dataTable.Editor( {
+        "ajaxUrl": url_edit_rondas,
+        "domTable": "#examplerondas",
+        "fields": [
+             {
+                "label": "Nombre:",
+                "name": "nombre"
+            }, {
+                "label": "Observaciones:",
+                "name": "observaciones"
+            }
+        ]
+    } );
+>>>>>>> 7c52a9a373655088ffea87bc895b8e2eb6fc9877
 
 
     $('#examplerondas').dataTable( {
@@ -22,6 +38,7 @@ function inicializarPagina() {
             },
             "aoColumns": [
                 { "mData": "nombre" },
+<<<<<<< HEAD
                 { "mData": "observaciones" },
                 { "mData": "acciones" }
             ],
@@ -29,6 +46,16 @@ function inicializarPagina() {
                 //"sRowSelect": "multi",
                 "aButtons": [
                    
+=======
+                { "mData": "observaciones" }
+            ],
+            "oTableTools": {
+                "sRowSelect": "multi",
+                "aButtons": [
+                    { "sExtends": "editor_create", "editor": editor, "sButtonText": "Crear" },
+                    { "sExtends": "editor_edit",   "editor": editor, "sButtonText": "Modificar" },
+                    { "sExtends": "editor_remove", "editor": editor, "sButtonText": "Eliminar" }
+>>>>>>> 7c52a9a373655088ffea87bc895b8e2eb6fc9877
                 ]
             }
     } );
