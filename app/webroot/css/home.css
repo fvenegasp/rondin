@@ -1,0 +1,13 @@
+#configuracion_tbl thead{
+	background-color:#a2ca3d;
+	color: #fff;
+}
+
+#agregar_ronda_btn{	
+	color: #fff;
+	position: absolute;
+}
+
+#configuracion_tbl_length{
+	float: right;
+}

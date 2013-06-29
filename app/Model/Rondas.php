@@ -42,7 +42,7 @@ class Rondas extends AppModel {
                 )
             ),
             'group' => 'Rondas.idronda'        
-        );
+        );        
         $resp = $this->find('all', $params);
         return $resp;
    }

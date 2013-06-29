@@ -22,18 +22,36 @@ class ConfiguracionController extends AppController {
         $this->layout = 'home';
     }
 
-    function mostrarRondas() {
-        $this->set('rondas', $this->Rondas->searchAll());
-        $this->render('rondas');   
+    function mostrarRondas() {        
+       // $this->set('rondas', $this->Rondas->searchAll());   
+       // $this->render('rondas');   
         $i = 0;
         foreach ($this->Rondas->searchAll() as $ronda) {
+            $dias = str_replace(array('1', '2', '3', '4', '5', '6', '7'), array('L', 'M', 'X', 'J', 'V', 'S'), $ronda[0]['dias']);
+            $dias = str_replace(",", " ", $dias);
+
+
+            $horas =  $ronda[0]['horas'];
+            $pcontrol = $ronda[0]['puntoscontrol'];
+
             $datos[$i] = array(
                 'DT_RowId' => 'row_' . $i,
                 'nombre' => $ronda['Rondas']['nombre'],
                 'observaciones' => $ronda['Rondas']['observaciones'],
-                'acciones' => " <button class='btn btn-warning' type='button'><i class='icon-edit icon-white'></button>
-                                
-                                <a class='btn btn-danger' href='#eliminar_usuario' data-toggle='modal' onclick='selectRut()'><i class='icon-minus icon-white'></i></a>"
+                'dias' => $dias,
+                'horas' => $horas,
+                'pcontrol' => $pcontrol
+                //'acciones' => " <button class='btn btn-warning' type='button'><i class='icon-edit icon-white'></button>"
+                /*
+                
+                'DT_RowId' => 'row_' . $i,
+                'nombre' => $ronda['Rondas']['nombre'],
+                'observaciones' => $ronda['Rondas']['observaciones'],
+                'dias' => "",//$ronda[0]['dias'],
+                'horas' => "",//$ronda[0]['horas'],
+                'pcontrol' => ""//$ronda[0]['puntoscontrol'] 
+
+                */            
             );
             $i++;
         }
