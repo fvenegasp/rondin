@@ -30,14 +30,10 @@ class ConfiguracionController extends AppController {
             $datos[$i] = array(
                 'DT_RowId' => 'row_' . $i,
                 'nombre' => $ronda['Rondas']['nombre'],
-<<<<<<< HEAD
                 'observaciones' => $ronda['Rondas']['observaciones'],
                 'acciones' => " <button class='btn btn-warning' type='button'><i class='icon-edit icon-white'></button>
                                 
                                 <a class='btn btn-danger' href='#eliminar_usuario' data-toggle='modal' onclick='selectRut()'><i class='icon-minus icon-white'></i></a>"
-=======
-                'observaciones' => $ronda['Rondas']['observaciones']
->>>>>>> 7c52a9a373655088ffea87bc895b8e2eb6fc9877
             );
             $i++;
         }
