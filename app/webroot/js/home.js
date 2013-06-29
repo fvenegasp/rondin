@@ -1,9 +1,18 @@
+var sSearch = "Buscar:";
+var sLengthMenu = "Mostrar _MENU_ registros por página";
+var sZeroRecords = "No se encontró nada";
+var sInfo = "Mostrar _START_ a _END_ de _TOTAL_ registros";
+var sInfoEmpty = "Mostrar 0 a 0 de 0 registros";
+var sInfoFiltered = "(Filtrado de _MAX_ registros totales)";
+var sFirst = "Primero";
+var sLast = "Último";
+var sNext = "Siguiente";
+var sPrevious = "Anterior";
+
+
 $(document).ready(inicializarPagina);
 
-
-
 function inicializarPagina() { 
-
 
 $("#btn_aceptar_cerrar_sesion").click(function(){
     $.ajax({
