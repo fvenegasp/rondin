@@ -14,7 +14,7 @@ class Rondas extends AppModel {
    
    function searchAll(){
        $params = array(
-            'fields' => array('Rondas.nombre', 'Rondas.observaciones', 'GROUP_CONCAT(DISTINCT(dr.dia) ORDER BY dr.dia) AS dias', 'GROUP_CONCAT(DISTINCT(hr.hora)) AS horas', 'GROUP_CONCAT(DISTINCT(pc.nombre)) AS puntoscontrol'),
+            'fields' => array('Rondas.idronda', 'Rondas.nombre', 'Rondas.observaciones', 'GROUP_CONCAT(DISTINCT(dr.dia) ORDER BY dr.dia) AS dias', 'GROUP_CONCAT(DISTINCT(hr.hora)) AS horas', 'GROUP_CONCAT(DISTINCT(pc.nombre)) AS puntoscontrol'),
             'joins' => array(
                 array(
                     'table' => 'diaronda',

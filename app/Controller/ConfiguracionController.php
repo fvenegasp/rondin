@@ -40,18 +40,10 @@ class ConfiguracionController extends AppController {
                 'observaciones' => $ronda['Rondas']['observaciones'],
                 'dias' => $dias,
                 'horas' => $horas,
-                'pcontrol' => $pcontrol
-                //'acciones' => " <button class='btn btn-warning' type='button'><i class='icon-edit icon-white'></button>"
-                /*
-                
-                'DT_RowId' => 'row_' . $i,
-                'nombre' => $ronda['Rondas']['nombre'],
-                'observaciones' => $ronda['Rondas']['observaciones'],
-                'dias' => "",//$ronda[0]['dias'],
-                'horas' => "",//$ronda[0]['horas'],
-                'pcontrol' => ""//$ronda[0]['puntoscontrol'] 
-
-                */            
+                'pcontrol' => $pcontrol,
+                'acciones' =>"
+                            <a id='agregar_usuario2' class='btn btn-warning' style='color:white;'  onclick='modalCrearRonda(".$ronda['Rondas']['idronda'].")'><i class='icon-edit icon-white'></i></a>
+                            <a class='btn btn-danger' style='color:white;' href='#eliminar_ronda' data-toggle='modal' onclick='selectRonda(".$ronda['Rondas']['idronda'].")'><i class='icon-minus icon-white'></i></a>"
             );
             $i++;
         }
