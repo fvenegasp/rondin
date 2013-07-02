@@ -1,8 +1,19 @@
 <?php
-echo $this->Html->script(array('administracion', 'jquery.dataTables' ));
-echo $this->Html->css('demo_table');
+echo $this->Html->script(array(
+    'jquery.dataTables', 
+    'TableTools',
+    'dataTables.editor', 
+    'bootstrap.min',
+    'dataTables.bootstrap',
+    'dataTables.editor.bootstrap',
+    'jquery.Rut',
+    'administracion'
+    ));
+echo $this->Html->css('home');
+echo $this->Html->css('dataTables.bootstrap');
 ?> 
 <script type="text/javascript" language="javascript">
+    var url_data_test = "<?php echo $this->Html->url(array("controller" => "rondas", "action" => "mostrarUsuarios")); ?>";      
     var url_mostrar_usuarios = "<?php echo $this->Html->url(array("controller" => "Administracion", "action" => "mostrarUsuarios")); ?>"; 
     var url_progreso= "<?php echo $this->Html->url(array("controller" => "Administracion", "action" => "progreso")); ?>";      
     var url_agregar_usuario_modal= "<?php echo $this->Html->url(array("controller" => "Administracion", "action" => "agregarUsuarioModal")); ?>";      
@@ -19,10 +30,11 @@ echo $this->Html->css('demo_table');
             </ul>
             <!-- Ususarios ------------------------------------------------------------------------------------------>
             <div id="tabs-1">
-              <center><div id="cargando"></div></center>
-               <div id="resultado"></div>
-                
-               <!-- Modal -->
+                <a id="agregar_usuario" class="btn btn-success" style="color:white;"><i class="icon-plus icon-white"></i> Agregar</a>
+                <table cellpadding="0" cellspacing="0" border="0" class="table table-striped table-bordered" id="administracion" width="100%">  
+                </table>
+                    
+                <!-- Modal -->
                 <div id="eliminar_usuario" class="modal hide" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
@@ -36,13 +48,6 @@ echo $this->Html->css('demo_table');
                         <button  id="btn_aceptar_eliminar_usuario" class="btn btn-primary">Aceptar</button>
                     </div>
                 </div>
-               
-               <br><br>
-               <a id="agregar_usuario" class="btn btn-success" style="color:white;"><i class="icon-plus icon-white"></i> Agregar</a>
-               <!-- 
-               <a id="agregar_usuario2" class="btn btn-warning" style="color:white;"><i class="icon-edit icon-white"></i> Modificar</a>
-                <a id="agregar_usuario3" class="btn btn-danger" style="color:white;"><i class="icon-minus icon-white"></i> Eliminar</a>   
-                -->
             </div>
             <!-- Privilegios -------------------------------------------------------------------------------------------->
             <div id="tabs-2">

@@ -14,12 +14,16 @@ class RondasController extends AppController {
         //$this->layout = 'ajax';
         $i = 0;
         foreach ($this->Users->searchAll() as $usu) {
+            $rut = $usu['Users']['rut'] . "-" . $usu['Users']['dv'];
             $datos[$i] = array('DT_RowId' => 'row_' . $i,
-                'rut' => $usu['Users']['rut'] . "-" . $usu['Users']['dv'],
+                'rut' => $rut,
                 'nombre' => $usu['Users']['nombre'],
                 'ap_paterno' => $usu['Users']['ap_paterno'],
                 'ap_materno' => $usu['Users']['ap_materno'],
-                'rol' => $usu['r']['descripcion']
+                'rol' => $usu['r']['descripcion'],
+                'acciones' =>"
+                            <a id='agregar_usuario2' class='btn btn-warning' style='color:white;'  onclick='modalAgregarUsuario(\"".$rut."\")'><i class='icon-edit icon-white'></i></a>
+                            <a class='btn btn-danger' style='color:white;' href='#eliminar_usuario' data-toggle='modal' onclick='selectRut(\"".$rut."\")'><i class='icon-minus icon-white'></i></a>"
             );
 
             $i++;
