@@ -1,33 +1,12 @@
 $(document).ready(inicializarPagina);
 
 var rut = "";
+var oTable;
 
 function inicializarPagina() { 
-     $('#administracion').dataTable( {
-        "oLanguage": {
-            "sSearch": sSearch, 
-            "sLengthMenu": sLengthMenu,
-            "sZeroRecords": sZeroRecords,
-            "sInfo": sInfo,
-            "sInfoEmpty": sInfoEmpty,
-            "sInfoFiltered": sInfoFiltered,
-            "oPaginate": {
-                "sFirst": sFirst,
-                "sLast": sLast,
-                "sNext": sNext,
-                "sPrevious": sPrevious
-            }
-        },
-        "sAjaxSource": url_data_test,
-        "aoColumns": [
-            { "mData": "rut", "sTitle": "Rut" },
-            { "mData": "nombre", "sTitle": "Nombre" },
-            { "mData": "ap_paterno", "sTitle": "Ap. Paterno" },
-            { "mData": "ap_materno", "sTitle": "Ap. Materno" },
-            { "mData": "rol", "sTitle": "Rol" },
-            { "mData": "acciones", "sTitle": "Acciones", "sWidth": "10%" }  
-        ]
-    } );
+     
+    cargarTabla();
+     
     $("#btn_aceptar_eliminar_usuario").click(function(){
         eliminarUsuario(rut);
      });
@@ -40,6 +19,25 @@ function inicializarPagina() {
     $("#agregar_usuario").click(AgregarUsuario);
 }
 
+function destrTabla(){
+     oTable.fnDestroy();
+}
+
+function cargarTabla(){
+   oTable = $('#administracion').dataTable( {
+       
+        "sAjaxSource": url_data_test,
+        "aoColumns": [
+            { "mData": "rut", "sTitle": "Rut" },
+            { "mData": "nombre", "sTitle": "Nombre" },
+            { "mData": "ap_paterno", "sTitle": "Ap. Paterno" },
+            { "mData": "ap_materno", "sTitle": "Ap. Materno" },
+            { "mData": "rol", "sTitle": "Rol" },
+            { "mData": "acciones", "sTitle": "Acciones", "sWidth": "10%" }  
+        ]
+    } );
+  
+}
 
 function selectRut(r){
     rut = r;
@@ -79,15 +77,16 @@ function eliminarUsuario(rut){
                 dataType: 'json',
                 success: function(dat){
                     if(dat.estado==true){
-                       $('#eliminar_usuario').modal('toggle')
-                      
+                       destrTabla();
+                       cargarTabla();
                     }
                 },
                 complete: function() {
-                   // overLoader(0);
+                  overLoader(0);
                 },
                  beforeSend: function() {
-                  // overLoader(1,'Eliminando...');
+                  $('#eliminar_usuario').modal('toggle');   
+                  overLoader(1,'Eliminando...');
                 }
             });
         

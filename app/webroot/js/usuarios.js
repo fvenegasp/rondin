@@ -1,27 +1,21 @@
 $(document).ready(inicializarPagina);
 
 function inicializarPagina() { 
-   
     $("#modal-launcher").click(function(){
         $("#modal-background").toggleClass("active");
         $("#modal-content").toggleClass("active");
     });
-
     $("#modal-background, #modal-close").click(function(){
         $("#modal-background").toggleClass("active");
         $("#modal-content").toggleClass("active");
     });
-    
-   
+  
     $("#agregar").click(agregarUsuario);
-    $("#modificar").click(modificarUsuario);
-    
+    $("#modificar").click(modificarUsuario); 
     $('#rut').Rut({
         on_error: function(){alert('Rut Invalido');$("#agregar").hide();$("#modificar").hide();},
         on_success: function(){checkUsuario();} 
     });           
-    
- 
 }
 
 
@@ -48,7 +42,6 @@ function agregarUsuario(){
             if(dat.estado){
                 $("#modal-background").toggleClass("active");
                 $("#modal-content").toggleClass("active");
-                cargarUsuarios();
             }else{
                 alert('Error al agregar');
             }
