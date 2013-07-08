@@ -9,6 +9,12 @@ class RondasController extends AppController {
     function index() {
         $this->layout = 'home';
     }
+    
+    function usuarios(){
+        $this->layout = 'ajax';
+        $this->set('roles',  $this->Roles->listRoles());
+        $this->render('usuarios');
+    }
 
     function mostrarUsuarios() {
         //$this->layout = 'ajax';
