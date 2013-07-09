@@ -4,18 +4,16 @@ var rut = "";
 var oTable;
 
 function inicializarPagina() { 
-    $("#modal-launcher").click(function(){
-        $("#modal-background").toggleClass("active");
-        $("#modal-content").toggleClass("active");
-    });
-    $("#modal-background, #modal-close").click(function(){
-        $("#modal-background").toggleClass("active");
-        $("#modal-content").toggleClass("active");
-    });
+    
     cargarTabla();
      $('#rut').Rut({
-        on_error: function(){alert('Rut Invalido');$("#agregar").hide();},
-        on_success: function(){checkUsuario();} 
+        on_error: function(){
+            CajaMensajes('Rut Invalido', 'alerta');
+            $("#agregar").hide();
+            $("#modificar").hide();},
+        on_success: function(){
+            checkUsuario($("#rut").attr('value'));
+        } 
     }); 
       $("#agregar").click(agregarUsuario);
       $("#agregar_usuario").click(limpiarFormulario);
@@ -35,6 +33,7 @@ function limpiarFormulario(){
     $("#div_password").show();
     $("#modificar").hide();
     $("#agregar").show();
+    $("#CajaMensajes").hide();
 }
 
 function selectRut(r){
@@ -71,11 +70,11 @@ function agregarUsuario(){
     var rol = $("#rol").attr('value');
     var password = $("#password").attr('value');
     
-    if($.trim(rut)=='') alert('debe ingresar rut');
-    if($.trim(nombre)==''){ alert('debe ingresar nombre'); return false;}
-    if($.trim(ap_paterno)==''){ alert('debe ingresar apellido paterno'); return false;}
-    if($.trim(rol)==''){ alert('debe seleccionar rol'); return false;}
-    if($.trim(password)==''){ alert('debe ingresar password'); return false;}
+    if($.trim(rut)==''){ CajaMensajes('debe ingresar rut', 'alerta'); return false}
+    if($.trim(nombre)==''){ CajaMensajes('debe ingresar nombre', 'alerta'); return false;}
+    if($.trim(ap_paterno)==''){ CajaMensajes('debe ingresar apellido paterno', 'alerta'); return false;}
+    if($.trim(rol)==''){ CajaMensajes('debe seleccionar rol', 'alerta'); return false;}
+    if($.trim(password)==''){ CajaMensajes('debe ingresar password', 'alerta'); return false;}
     
      $.ajax({
         data: "rut="+rut+"&nombre="+nombre+"&ap_paterno="+ap_paterno+"&ap_materno="+ap_materno+"&rol="+rol+"&password="+password,
@@ -87,10 +86,10 @@ function agregarUsuario(){
                 $('#myModal').modal('hide');
                 destrTabla();
                 cargarTabla();
+                limpiarFormulario();
             }else{
-                alert('Error al agregar');
-            }
-            
+                CajaMensajes('Error al agregar', 'alerta'); 
+            }  
         },
          beforeSend: function(){
            $("#form1 :input").attr("disabled", true);
@@ -103,14 +102,13 @@ function agregarUsuario(){
 }
 
 
-function checkUsuario(){
-    var rut = $("#rut").attr('value');
+function checkUsuario(rut){
     if(rut=='1-9'){
        $("#agregar").hide();
        $("#modificar").hide();  
        $("#form1 :input").attr("disabled", true);
        $("#rut").attr("disabled", false);
-        alert('Rut Invalido');
+        CajaMensajes('Rut Invalido', 'alerta');
         return false;        
     }
     
@@ -119,9 +117,9 @@ function checkUsuario(){
         type: "POST",
         url: url_checkUsuario,
         dataType: 'json',
-        success: function(dat){
-            
+        success: function(dat){         
            if(dat.estado==true){
+               $("#rut").attr('value', rut);
                $("#nombre").attr('value', dat.nombre);
                $("#ap_paterno").attr('value', dat.ap_paterno);
                $("#ap_materno").attr('value', dat.ap_materno);
@@ -156,10 +154,10 @@ function modificarUsuario(){
     var ap_materno = $("#ap_materno").attr('value');
     var rol = $("#rol").attr('value');
     
-    if($.trim(rut)==''){ alert('debe ingresar rut'); return false;}
-    if($.trim(nombre)==''){ alert('debe ingresar nombre'); return false;}
-    if($.trim(ap_paterno)==''){ alert('debe ingresar apellido paterno'); return false;}
-    if($.trim(rol)==''){ alert('debe seleccionar rol'); return false;}
+    if($.trim(rut)==''){ CajaMensajes('debe ingresar rut', 'alerta'); return false}
+    if($.trim(nombre)==''){ CajaMensajes('debe ingresar nombre', 'alerta'); return false;}
+    if($.trim(ap_paterno)==''){ CajaMensajes('debe ingresar apellido paterno', 'alerta'); return false;}
+    if($.trim(rol)==''){ CajaMensajes('debe seleccionar rol', 'alerta'); return false;}
     
     $.ajax({
         data: "rut="+rut+"&nombre="+nombre+"&ap_paterno="+ap_paterno+"&ap_materno="+ap_materno+"&rol="+rol,
@@ -171,8 +169,9 @@ function modificarUsuario(){
                 $('#myModal').modal('hide');
                 destrTabla();
                 cargarTabla();
+                limpiarFormulario();
             }else{
-                alert('Error al modificar');
+                CajaMensajes('Error al modificar', 'alerta');
             }
             
         },
@@ -188,26 +187,30 @@ function modificarUsuario(){
 }
 
 function eliminarUsuario(rut){
-            $.ajax({
-                type: 'POST',
-                data: "rut="+rut,
-                url: url_eliminar_usuario,
-                dataType: 'json',
-                success: function(dat){
-                    if(dat.estado==true){
-                       destrTabla();
-                       cargarTabla();
-                       $('#eliminar_usuario').modal('toggle');   
-                    }
-                },
-                complete: function() {
-                  $('#cargando_eliminar').empty();
-                },
-                beforeSend: function() {
-                  $("#btn_cancelar_eliminar_usuario").hide();
-                  $("#btn_aceptar_eliminar_usuario").hide();  
-                  $('#cargando_eliminar').prepend('<img src="img/window_loader.gif" />');
-                }
-            });
-        
+    $.ajax({
+        type: 'POST',
+        data: "rut="+rut,
+        url: url_eliminar_usuario,
+        dataType: 'json',
+        success: function(dat){
+            if(dat.estado==true){
+               $('#eliminar_usuario').modal('toggle');
+               destrTabla();
+               cargarTabla();
+               limpiarFormulario();
+            }
+        },
+        complete: function() {
+          $('#cargando_eliminar').empty();
+        },
+        beforeSend: function() {
+          $("#btn_cancelar_eliminar_usuario").hide();
+          $("#btn_aceptar_eliminar_usuario").hide();  
+          $('#cargando_eliminar').prepend('<img src="img/window_loader.gif" />');
+        }
+    });    
+}
+
+function modalAgregarUsuario(rut){
+    checkUsuario(rut);
 }

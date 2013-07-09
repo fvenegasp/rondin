@@ -31,7 +31,7 @@ $("#btn_aceptar_cerrar_sesion").click(function(){
 
 function CajaMensajes(msg, type){
     $("#CajaMensajes").attr('class', 'alert '+type);
-    $("#CajaMensajes").show().delay(7000);
+    $("#CajaMensajes").show().delay(6000);
     $("#CajaMensajes").hide(3);
     $("#pMensaje").html(msg);		
 }

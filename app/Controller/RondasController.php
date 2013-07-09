@@ -28,7 +28,7 @@ class RondasController extends AppController {
                 'ap_materno' => $usu['Users']['ap_materno'],
                 'rol' => $usu['r']['descripcion'],
                 'acciones' =>"
-                            <a id='agregar_usuario2' class='btn btn-warning' style='color:white;'  onclick='modalAgregarUsuario(\"".$rut."\")'><i class='icon-edit icon-white'></i></a>
+                            <a class='btn btn-warning' style='color:white;' data-toggle='modal' href='#myModal'  onclick='modalAgregarUsuario(\"".$rut."\")'><i class='icon-edit icon-white'></i></a>
                             <a class='btn btn-danger' style='color:white;' href='#eliminar_usuario' data-toggle='modal' onclick='selectRut(\"".$rut."\")'><i class='icon-minus icon-white'></i></a>"
             );
 

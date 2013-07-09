@@ -35,9 +35,13 @@ echo $this->Html->script(array('usuarios_rondas'));
 <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3 id="myModalLabel">Agregar Usuarios</h3>
+        <h3 id="myModalLabel">Usuarios</h3>
     </div>
     <div class="modal-body">
+        <div class="alert " id="CajaMensajes" style="position: fixed; top: 1%; left: 15%; width: 70%;display: none ">            
+                      
+            <p id="pMensaje" ></p>
+        </div>
         <form id="form1">
             <table>
                 <tr>
